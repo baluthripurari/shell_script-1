@@ -21,3 +21,6 @@ command "sh variables.sh person1 person2"
 4 symbol -s denotes for hiding the details like username & password 
 ex:echo  "please enter username
 read -s USERNAME
+
+array---> List of values
+If you defined as array, it can hold list of values.....
