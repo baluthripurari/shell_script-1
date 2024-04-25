@@ -34,4 +34,5 @@ Variable can be decleared as $varaiable or ${variable}
 "which user is running the script: $USER"
 "Host name: $HOSTNAME"
 "process ID of current shell script: $$"
+sleep 5 & [& denotes seconds]
 "process ID of last background command: $!"
