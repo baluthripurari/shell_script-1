@@ -18,3 +18,6 @@ command "sh variables.sh person1 person2"
 1. repeated words
 2. if you want to change, you have to change it every where
 3. while changing accidently you may change actual code
+4 symbol -s denotes for hiding the details like username & password 
+ex:echo  "please enter username
+read -s USERNAME
