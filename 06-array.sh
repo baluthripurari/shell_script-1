@@ -10,3 +10,7 @@ COMPANY=("TCS" "PWC" "HCL" "INFOSYS")
 #list always start with 0
 
 echo "first company is: ${COMPANY[0]}"
+echo "second company is: ${COMPANY[1]}"
+echo "third company is: ${COMPANY[2]}"
+echo "fourth company is: ${COMPANY[3]}"
+echo "all company is: ${COMPANY[@]}"

@@ -25,3 +25,4 @@ read -s USERNAME
 array---> List of values
 If you defined as array, it can hold list of values.....
 Variable can be decleared as $varaiable or ${variable}
+@ is the meaning of everything ex:echo " your companies is: ${COMPANY[@]}"
