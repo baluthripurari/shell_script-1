@@ -9,4 +9,4 @@ COMPANY=("TCS" "PWC" "HCL" "INFOSYS")
 
 #list always start with 0
 
-echo "first company is: ${0}"
+echo "first company is: ${COMPANY[0]}"
