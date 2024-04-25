@@ -26,3 +26,12 @@ array---> List of values
 If you defined as array, it can hold list of values.....
 Variable can be decleared as $varaiable or ${variable}
 @ is the meaning of everything ex:echo " your companies is: ${COMPANY[@]}"
+"All variables: $@"
+"Number of Variables passwd: $#"
+"script name $0"
+"current working directory: $PWD"
+"Home directory of current user: $HOME"
+"which user is running the script: $USER"
+"Host name: $HOSTNAME"
+"process ID of current shell script: $$"
+"process ID of last background command: $!"
