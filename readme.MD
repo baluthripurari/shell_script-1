@@ -45,3 +45,23 @@ Special Shell Varaibles
 8. "process ID of current shell script: $$"
 9. sleep 5 & [& denotes seconds]
 10. "process ID of last background command: $!"
+
+Conditions
+-----------
+when you want to take decision 
+ex:I want to check whether a number is greater than 20 or not 
+first get the number
+check if it is greater than 10 or not
+if greater print greater 
+if less print lower
+!=false
+-gt=greater than, -lt=lesser than, -eq=eqaul to, -ge=greater than or equal to, -le=lesser than or equal to
+syntax
+------
+NUMBER=5
+if(!NUMBER>10){
+    print "print given number is greater than 10"
+}
+else{
+     print "print given number is less than 10"
+}
