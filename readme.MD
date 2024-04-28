@@ -48,14 +48,14 @@ Special Shell Varaibles
 
 Conditions
 -----------
-when you want to take decision 
-ex:I want to check whether a number is greater than 20 or not 
-first get the number
-check if it is greater than 10 or not
-if greater print greater 
-if less print lower
-!=false
--gt=greater than, -lt=lesser than, -eq=eqaul to, -ge=greater than or equal to, -le=lesser than or equal to
+1.when you want to take decision 
+2.ex:I want to check whether a number is greater than 20 or not 
+3.first get the number
+4.check if it is greater than 10 or not
+5.if greater print greater 
+6.if less print lower
+#!=false
+#-gt=greater than, -lt=lesser than, -eq=eqaul to, -ge=greater than or equal to, -le=lesser than or equal to
 syntax
 ------
 NUMBER=5
