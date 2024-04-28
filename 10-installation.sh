@@ -2,11 +2,11 @@
 
 
 USERID=$(id -u)
-if [$(id -u) -eq to 0]
+if [$USERID -ne  0]
 then
-    "echo give $USERID is super user"
-else
-    "echo given $USERID is not super user"
+    echo "please run this script with root access"
+else 
+    echo "ypu are super user"
 fi
 
 dnf install mysql -y
