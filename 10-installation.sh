@@ -3,7 +3,7 @@
 
 USERID=$(id -u)
 
-if [ $USERID -eq  0 ]
+if [ $USERID -ne  0 ]
 then
     echo "please run this script with root access"
 else 
@@ -11,3 +11,9 @@ else
 fi
 
 dnf install mysql -y
+
+if [$? -ne 0 ]
+then 
+    echo "Installation of mysql is fa "
+else
+    echo "Installation of musql is "

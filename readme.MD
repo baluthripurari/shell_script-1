@@ -67,3 +67,15 @@ if(!NUMBER>10){
 else{
      print "print given number is less than 10"
 }
+
+disadvantage of shell script
+------------------------
+shell script will not stop even it faces the error, it is user responsibility to check the previous command is success/not
+
+exit status
+------------
+what is exit status?
+
+$? --> to check the exit status of previous command
+0 --> success
+other than 0 --> failure
